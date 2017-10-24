@@ -1,0 +1,4 @@
+main
+main.o
+*.tar.gz
+*.src.rpm
