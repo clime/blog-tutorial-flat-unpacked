@@ -9,5 +9,5 @@ there are no subdirectories that would themselves contain a spec file.
 **Unpacked** means the application source files are not packed into a tarball
 that would be referenced by 'Source0' directive in the spec file. Instead
 the sources are kept as developer made them and they will be packed into
-the tarball during later the build process. We need to get the sources
+the tarball later during the build process. We need to get the sources
 packed at some point to be able to build an RPM from them.
