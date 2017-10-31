@@ -3,8 +3,8 @@
 Hello, this is an example repository to demonstrate COPR SCM abilities.
 Content of this repository is flat and unpacked.
 
-**Flat** means there are no subpackages in the repository. In other words,
-there are no subdirectories that would themselves contain a spec file.
+**Flat** means there are no subpackages in the repository except the root one.
+In other words, there are no subdirectories that would themselves contain a spec file.
 
 **Unpacked** means the application source files are not packed into a tarball
 that would be referenced by a Source directive in the spec file. Instead,
