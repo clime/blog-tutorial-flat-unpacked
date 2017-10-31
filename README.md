@@ -7,7 +7,8 @@ Content of this repository is flat and unpacked.
 there are no subdirectories that would themselves contain a spec file.
 
 **Unpacked** means the application source files are not packed into a tarball
-that would be referenced by 'Source0' directive in the spec file. Instead
+that would be referenced by a Source directive in the spec file. Instead,
 the sources are kept as developer made them and they will be packed into
-the tarball later during the build process. We need to get the sources
-packed at some point to be able to build an RPM from them.
+the tarball named after 'Source0' later during the build process. We need
+to get the sources packed at some point to be able to build an installable
+RPM from them.
